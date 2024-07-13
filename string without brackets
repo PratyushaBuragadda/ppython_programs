@@ -1,0 +1,6 @@
+Expression = "(x+y)+(z+q)"
+Equation = ' '
+for char in Expression:
+    if char not in "()":
+        Equation += char
+print("string without brackets is:",Equation)
