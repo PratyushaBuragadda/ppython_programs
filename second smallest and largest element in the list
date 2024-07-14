@@ -1,0 +1,13 @@
+def find_len( list1 ) :
+    Lelmt = max( list1 )
+    list1.pop( list1.index( Lelmt ) )
+    sLelmt = max(list1)
+    Selmt = min( list1 )
+    list1.pop( list1.index( Selmt ) )
+    sSelmt = min( list1 )
+    print("Largest element is:", Lelmt )
+    print("Smallest element is:", Selmt )
+    print("Second Largest element is:", sLelmt )
+    print("Second Smallest element is:", sSelmt )
+list1=[12, 45, 2, 41, 31, 10, 8, 6, 4]
+Largest = find_len(list1)
